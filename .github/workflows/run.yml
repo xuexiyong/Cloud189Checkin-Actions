@@ -5,9 +5,9 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-  schedule:
+  #schedule:
   #  - cron: 0 2,14 * * *
-#
+    
 jobs:
   build:
     runs-on: ubuntu-latest
